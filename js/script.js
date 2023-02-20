@@ -43,5 +43,5 @@ function js_style() {
     the_message = prompt("Adınızı giriniz:")
 
     let the_text =  document.querySelector(".the_text")
-    the_text.innerHTML = `Merhaba ${the_message } Hoş Geldin! ${new Date()} tarihinde bu butona basarak zamanı durdurdun. Bu senin için bir başlangıç olsun!`
+    the_text.innerHTML = `Merhaba ${the_message } Hoş Geldin! ${new Date()} tarihinde bu butona basarak zamanı durdurdun. Bu senin için bir başlangıç olsun!!`
 }
